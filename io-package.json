@@ -1,0 +1,123 @@
+{
+	"common": {
+		"name": "jarvis-extensions",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Jarvis-Extensions",
+		"titleLang": {
+			"en": "Jarvis-Extensions",
+			"de": "Jarvis-Extensions",
+			"ru": "Jarvis-Extensions",
+			"pt": "Jarvis-Extensions",
+			"nl": "Jarvis-Extensions",
+			"fr": "Jarvis-Extensions",
+			"it": "Jarvis-Extensions",
+			"es": "Jarvis-Extensions",
+			"pl": "Jarvis-Extensions",
+			"zh-cn": "Jarvis-Extensions"
+		},
+		"desc": {
+			"en": "Extensions for jarvis-Adapter",
+			"de": "Extensions for jarvis-Adapter",
+			"ru": "Extensions for jarvis-Adapter",
+			"pt": "Extensions for jarvis-Adapter",
+			"nl": "Extensions for jarvis-Adapter",
+			"fr": "Extensions for jarvis-Adapter",
+			"it": "Extensions for jarvis-Adapter",
+			"es": "Extensions for jarvis-Adapter",
+			"pl": "Extensions for jarvis-Adapter",
+			"zh-cn": "Extensions for jarvis-Adapter"
+		},
+		"authors": ["mcuiobroker <mcuiobroker@gmail.com>"],
+		"keywords": ["ioBroker", "ioBroker-adapter", "jarvis", "visualization"],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "jarvis-extensions.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/mcuiobroker/ioBroker.jarvis-extensions/main/admin/jarvis-extensions.png",
+		"readme": "https://github.com/mcuiobroker/ioBroker.jarvis-extensions/blob/main/README.md",
+		"loglevel": "info",
+		"restartAdapters": ["vis"],
+		"mode": "daemon",
+		"type": "visualization",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json",
+			"tab": "materialize"
+		},
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "Jarvis-Extensions",
+				"de": "Jarvis-Extensions",
+				"ru": "Jarvis-Extensions",
+				"pt": "Jarvis-Extensions",
+				"nl": "Jarvis-Extensions",
+				"fr": "Jarvis-Extensions",
+				"it": "Jarvis-Extensions",
+				"es": "Jarvis-Extensions",
+				"pl": "Jarvis-Extensions",
+				"zh-cn": "Jarvis-Extensions"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"eraseOnUpload": true,
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			},
+			"vis"
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"lastDPChanges": false,
+		"copyInstance": false
+	},
+	"objects": [],
+	"instanceObjects": [
+		{
+			"_id": "info",
+			"type": "channel",
+			"common": {
+				"name": "Information"
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.connection",
+			"type": "state",
+			"common": {
+				"role": "indicator.connected",
+				"name": "Device or service connected",
+				"type": "boolean",
+				"read": true,
+				"write": false,
+				"def": false
+			},
+			"native": {}
+		}
+	]
+}

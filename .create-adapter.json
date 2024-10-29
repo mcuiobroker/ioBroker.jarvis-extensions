@@ -1,0 +1,47 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "jarvis-extensions",
+	"title": "Jarvis-Extensions",
+	"description": "Extensions for jarvis-Adapter",
+	"keywords": ["ioBroker", "ioBroker-adapter", "jarvis", "visualization"],
+	"contributors": "",
+	"features": ["adapter", "vis"],
+	"adminFeatures": ["tab", "custom"],
+	"type": "visualization",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"adapterSettings": [
+		{
+			"key": "lastDPChanges",
+			"label": "Letzte Jarvis-DP Änderungen",
+			"inputType": "checkbox",
+			"defaultValue": false
+		},
+		{
+			"key": "copyInstance",
+			"label": "Instanz kopieren",
+			"inputType": "checkbox",
+			"defaultValue": false
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "16",
+	"adminUi": "json",
+	"tabReact": "yes",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "single",
+	"es6class": "yes",
+	"tools": ["ESLint", "type checking", "Prettier"],
+	"authorName": "mcuiobroker",
+	"authorGithub": "mcuiobroker",
+	"authorEmail": "mcuiobroker@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}

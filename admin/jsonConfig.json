@@ -1,0 +1,16 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"lastDPChanges": {
+			"type": "checkbox",
+			"label": "Letzte Jarvis-DP Änderungen",
+			"newLine": true
+		},
+		"copyInstance": {
+			"type": "checkbox",
+			"label": "Instanz kopieren",
+			"newLine": true
+		}
+	}
+}
