@@ -71,7 +71,7 @@
 			"singleton": true,
 			"name": {
 				"en": "Jarvis-Extensions",
-				"de": "Jarvis-Extensions",
+				"de": "Jarvis-Erweiterungen",
 				"ru": "Jarvis-Extensions",
 				"pt": "Jarvis-Extensions",
 				"nl": "Jarvis-Extensions",
@@ -81,14 +81,14 @@
 				"pl": "Jarvis-Extensions",
 				"zh-cn": "Jarvis-Extensions"
 			},
-			"link": "tab_m.html",
+			"link": "testTab.html",
 			"fa-icon": "info"
 		},
 		"supportCustoms": true,
 		"eraseOnUpload": true,
 		"dependencies": [
 			{
-				"js-controller": ">=3.3.22"
+				"js-controller": ">=5.0.19"
 			}
 		],
 		"globalDependencies": [

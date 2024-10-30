@@ -1,6 +1,9 @@
 {
 	"i18n": true,
 	"type": "tabs",
+	"tabsStyle": {
+		"width": "calc(100% - 100px)"
+	},
 	"iconPosition": "top",
 	"items": {
 		"_options": {
@@ -13,47 +16,57 @@
 					"label": "Letzte Jarvis-DP Änderungen",
 					"default": false,
 					"help": "TEST HELP",
-					"sm": 6,
+					"xs": 12,
+					"sm": 12,
 					"md": 6,
-					"lg": 6,
+					"lg": 4,
+					"xl": 4,
 					"newLine": true
 				},
 				"copyInstance": {
 					"type": "checkbox",
 					"label": "Instanz kopieren",
-					"sm": 6,
+					"xs": 12,
+					"sm": 12,
 					"md": 6,
-					"lg": 6,
+					"lg": 4,
+					"xl": 4,
 					"default": false
 				},
-				"ObjektId": {
+				"objektId": {
 					"type": "objectId",
 					"label": "Object",
+					"xs": 12,
 					"sm": 12,
-					"md": 4,
+					"md": 6,
 					"lg": 4,
+					"xl": 4,
 					"default": "",
 					"help": "Should be type of string or number",
-					"validator": "data.objId.length > 0",
+					"validator": "",
 					"validatorErrorText": "Select object or remove %s and %u from text",
-					"validatorNoSaveOnError": true
+					"validatorNoSaveOnError": false
 				},
 				"optionOne": {
 					"type": "text",
 					"label": "Option 1",
 					"newLine": true,
-					"sm": 6,
+					"xs": 12,
+					"sm": 12,
 					"md": 6,
-					"lg": 6,
+					"lg": 4,
+					"xl": 4,
 					"default": "",
 					"help": "use %n for name and %a for age"
 				},
 				"optionTwo": {
 					"type": "text",
 					"label": "Option 2",
-					"sm": 6,
+					"xs": 12,
+					"sm": 12,
 					"md": 6,
-					"lg": 6,
+					"lg": 4,
+					"xl": 4,
 					"default": ""
 				}
 			}
