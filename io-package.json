@@ -43,7 +43,11 @@
 		"tier": 3,
 		"authors": ["mcuiobroker <mcuiobroker@gmail.com>"],
 		"keywords": ["ioBroker", "jarvis", "visualization"],
-		"licenseInformation": "MIT",
+		"licenseInformation": {
+			"type": "limited",
+			"license": "MIT",
+			"link": ""
+		},
 		"platform": "Javascript/Node.js",
 		"main": "main.js",
 		"icon": "jarvis-extensions.png",
