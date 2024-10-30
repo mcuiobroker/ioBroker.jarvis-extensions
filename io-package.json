@@ -68,7 +68,8 @@
 		"connectionType": "local",
 		"dataSource": "poll",
 		"adminTab": {
-			"singleton": true,
+			"ignoreConfigUpdate": true,
+			"singleton": false,
 			"name": {
 				"en": "Jarvis-Extensions",
 				"de": "Jarvis-Erweiterungen",
@@ -81,7 +82,7 @@
 				"pl": "Jarvis-Extensions",
 				"zh-cn": "Jarvis-Extensions"
 			},
-			"link": "testTab.html",
+			"link": "admin/testTab.html",
 			"fa-icon": "info"
 		},
 		"supportCustoms": true,
