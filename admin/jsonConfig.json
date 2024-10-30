@@ -10,7 +10,7 @@
 		"copyInstance": {
 			"type": "checkbox",
 			"label": "Instanz kopieren",
-			"newLine": false
+			"newLine": true
 		}
 	}
 }
