@@ -55,7 +55,7 @@
 		"extIcon": "https://raw.githubusercontent.com/mcuiobroker/ioBroker.jarvis-extensions/main/admin/jarvis-extensions.png",
 		"readme": "https://github.com/mcuiobroker/ioBroker.jarvis-extensions/blob/main/README.md",
 		"loglevel": "info",
-		"restartAdapters": ["vis"],
+		"restartAdapters": [],
 		"mode": "daemon",
 		"type": "visualization",
 		"compact": true,
@@ -63,7 +63,8 @@
 		"dataSource": "poll",
 		"adminUI": {
 			"config": "json",
-			"tab": "materialize"
+			"tab": "materialize",
+			"custom": "json"
 		},
 		"adminTab": {
 			"singleton": true,
