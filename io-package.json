@@ -16,10 +16,9 @@
 				"zh-cn": "首次出版"
 			}
 		},
-		"title": "Jarvis-Extensions",
 		"titleLang": {
 			"en": "Jarvis-Extensions",
-			"de": "Jarvis-Extensions",
+			"de": "Jarvis-Erweiterungen",
 			"ru": "Jarvis-Extensions",
 			"pt": "Jarvis-Extensions",
 			"nl": "Jarvis-Extensions",
@@ -31,7 +30,7 @@
 		},
 		"desc": {
 			"en": "Extensions for jarvis-Adapter",
-			"de": "Extensions for jarvis-Adapter",
+			"de": "Erweiterungen für jarvis-Adapter",
 			"ru": "Extensions for jarvis-Adapter",
 			"pt": "Extensions for jarvis-Adapter",
 			"nl": "Extensions for jarvis-Adapter",
