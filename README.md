@@ -22,11 +22,9 @@ Extensions for jarvis-Adapter
 	### **WORK IN PROGRESS**
 -->
 
-### **WORK IN PROGRESS**
+### 0.0.1
 
 -   (mcuiobroker) initial release
-
-# jarvis-extensions v0.0.1
 
 Hier sind einige Erweiterungen in einem zusätzlichem Adapter zusammengeführt.
 
