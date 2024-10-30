@@ -43,7 +43,7 @@ class TabApp extends GenericApp {
 
 		return (
 			<div className="App">
-				Add your components here.
+				Erstelle hier Deine Datenanzeige.
 				{this.renderError()}
 				{this.renderToast()}
 			</div>
