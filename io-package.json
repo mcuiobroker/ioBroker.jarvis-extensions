@@ -1,4 +1,5 @@
 {
+	"$schema": "http://json-schema.org/draft-07/schema#",
 	"common": {
 		"name": "jarvis-extensions",
 		"version": "0.0.1",
