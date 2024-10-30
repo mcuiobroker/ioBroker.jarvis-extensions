@@ -5,7 +5,7 @@
 		"lastDPChanges": {
 			"type": "checkbox",
 			"label": "Letzte Jarvis-DP Änderungen",
-			"newLine": true
+			"newLine": false
 		},
 		"copyInstance": {
 			"type": "checkbox",
