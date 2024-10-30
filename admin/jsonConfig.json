@@ -11,8 +11,7 @@
 		"copyInstance": {
 			"type": "checkbox",
 			"label": "Instanz kopieren",
-			"default": false,
-			"newLine": false
+			"default": false
 		},
 		"optionOne": {
 			"type": "text",
@@ -23,7 +22,7 @@
 		"optionTwo": {
 			"type": "text",
 			"label": "Option 2",
-			"newLine": false,
+
 			"default": ""
 		}
 	}
