@@ -42,7 +42,7 @@
 		},
 		"tier": 3,
 		"authors": ["mcuiobroker <mcuiobroker@gmail.com>"],
-		"keywords": ["ioBroker", "jarvis", "visualization"],
+		"keywords": ["jarvis-tools", "jarvis", "visualization"],
 		"licenseInformation": {
 			"type": "limited",
 			"license": "MIT",
