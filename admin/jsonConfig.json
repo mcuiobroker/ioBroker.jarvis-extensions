@@ -6,24 +6,24 @@
 			"type": "checkbox",
 			"label": "Letzte Jarvis-DP Änderungen",
 			"default": false,
-			"newLine": false
+			"newLine": true
 		},
 		"copyInstance": {
 			"type": "checkbox",
 			"label": "Instanz kopieren",
 			"default": false,
-			"newLine": true
+			"newLine": false
 		},
 		"optionOne": {
 			"type": "text",
 			"label": "Option 1",
-			"newLine": false,
+			"newLine": true,
 			"default": ""
 		},
 		"optionTwo": {
 			"type": "text",
 			"label": "Option 2",
-			"newLine": true,
+			"newLine": false,
 			"default": ""
 		}
 	}
