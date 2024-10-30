@@ -29,7 +29,11 @@
 	],
 	"language": "JavaScript",
 	"nodeVersion": "16",
-	"adminUi": "json",
+	"adminUI": {
+		"config": "json",
+		"tab": "materialize",
+		"custom": "json"
+	},
 	"tabReact": "yes",
 	"releaseScript": "yes",
 	"indentation": "Tab",
