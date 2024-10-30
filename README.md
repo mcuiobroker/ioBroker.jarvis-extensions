@@ -120,6 +120,8 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 
 ### v0.0.1 (2024-10-30)
 
+**Aktuelle Version**: 0.0.1
+
 -   (mcuiobroker) correct errors
 
 ## License
