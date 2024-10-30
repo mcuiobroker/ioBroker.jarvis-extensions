@@ -42,7 +42,7 @@ class TabApp extends GenericApp {
 		}
 
 		return (
-			<div className="App">
+			<div className="App" style="color:white;">
 				Erstelle hier Deine Datenanzeige.
 				{this.renderError()}
 				{this.renderToast()}
