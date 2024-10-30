@@ -45,7 +45,7 @@
 		"keywords": ["jarvis-tools", "jarvis", "visualization"],
 		"licenseInformation": {
 			"type": "limited",
-			"license": "MIT",
+			"license": "Donationware - MIT",
 			"link": ""
 		},
 		"platform": "Javascript/Node.js",
