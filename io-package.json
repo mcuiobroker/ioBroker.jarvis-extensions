@@ -40,9 +40,10 @@
 			"pl": "Extensions for jarvis-Adapter",
 			"zh-cn": "Extensions for jarvis-Adapter"
 		},
+		"tier": 3,
 		"authors": ["mcuiobroker <mcuiobroker@gmail.com>"],
-		"keywords": ["ioBroker", "ioBroker-adapter", "jarvis", "visualization"],
-		"license": "MIT",
+		"keywords": ["ioBroker", "jarvis", "visualization"],
+		"licenseInformation": "MIT",
 		"platform": "Javascript/Node.js",
 		"main": "main.js",
 		"icon": "jarvis-extensions.png",
