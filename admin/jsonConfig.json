@@ -1,29 +1,37 @@
 {
 	"i18n": true,
-	"type": "panel",
+	"type": "tabs",
+	"iconPosition": "top",
 	"items": {
-		"lastDPChanges": {
-			"type": "checkbox",
-			"label": "Letzte Jarvis-DP Änderungen",
-			"default": false,
-			"newLine": true
-		},
-		"copyInstance": {
-			"type": "checkbox",
-			"label": "Instanz kopieren",
-			"default": false
-		},
-		"optionOne": {
-			"type": "text",
-			"label": "Option 1",
-			"newLine": true,
-			"default": ""
-		},
-		"optionTwo": {
-			"type": "text",
-			"label": "Option 2",
+		"_options": {
+			"type": "panel",
+			"label": "options",
 
-			"default": ""
+			"items": {
+				"lastDPChanges": {
+					"type": "checkbox",
+					"label": "Letzte Jarvis-DP Änderungen",
+					"default": false,
+					"newLine": true
+				},
+				"copyInstance": {
+					"type": "checkbox",
+					"label": "Instanz kopieren",
+					"default": false
+				},
+				"optionOne": {
+					"type": "text",
+					"label": "Option 1",
+					"newLine": true,
+					"default": ""
+				},
+				"optionTwo": {
+					"type": "text",
+					"label": "Option 2",
+
+					"default": ""
+				}
+			}
 		}
 	}
 }
