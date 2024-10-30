@@ -1,0 +1,35 @@
+{
+	settings: {
+		title: 'My Adapter Custom Settings', // Titel, der oben in den Einstellungen angezeigt wird
+		type: 'panel', // Definiert den Hauptbereich als Panel
+		items: {
+			// Enthält die einzelnen Einstellungen
+			exampleText: {
+				type: 'text', // Textfeld
+				label: 'Example Text Field',
+				default: 'Default Text',
+			},
+			exampleNumber: {
+				type: 'number', // Nummernfeld
+				label: 'Example Number Field',
+				min: 0,
+				max: 100,
+				default: 50,
+			},
+			exampleCheckbox: {
+				type: 'checkbox', // Kontrollkästchen
+				label: 'Enable Feature',
+				default: false,
+			},
+			exampleSelect: {
+				type: 'select', // Auswahlfeld
+				label: 'Select an option',
+				options: [
+					{ value: 'option1', text: 'Option 1' },
+					{ value: 'option2', text: 'Option 2' },
+				],
+				default: 'option1',
+			},
+		},
+	},
+}
