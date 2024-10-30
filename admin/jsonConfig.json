@@ -12,23 +12,48 @@
 					"type": "checkbox",
 					"label": "Letzte Jarvis-DP Änderungen",
 					"default": false,
+					"help": "TEST HELP",
+					"sm": 6,
+					"md": 6,
+					"lg": 6,
 					"newLine": true
 				},
 				"copyInstance": {
 					"type": "checkbox",
 					"label": "Instanz kopieren",
+					"sm": 6,
+					"md": 6,
+					"lg": 6,
 					"default": false
+				},
+				"ObjektId": {
+					"type": "objectId",
+					"label": "Object",
+					"sm": 12,
+					"md": 4,
+					"lg": 4,
+					"default": "",
+					"help": "Should be type of string or number",
+					"validator": "data.objId.length > 0",
+					"validatorErrorText": "Select object or remove %s and %u from text",
+					"validatorNoSaveOnError": true
 				},
 				"optionOne": {
 					"type": "text",
 					"label": "Option 1",
 					"newLine": true,
-					"default": ""
+					"sm": 6,
+					"md": 6,
+					"lg": 6,
+					"default": "",
+					"help": "use %n for name and %a for age"
 				},
 				"optionTwo": {
 					"type": "text",
 					"label": "Option 2",
-
+					"sm": 6,
+					"md": 6,
+					"lg": 6,
 					"default": ""
 				}
 			}
