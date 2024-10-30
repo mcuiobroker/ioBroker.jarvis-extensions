@@ -122,6 +122,10 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 
 **Aktuelle Version**: 0.0.1
 
+# jarvis-extensions v0.0.1
+
+Hier sind einige Erweiterungen in einem zusätzlichem Adapter zusammengeführt.
+
 -   (mcuiobroker) correct errors
 
 ## License
