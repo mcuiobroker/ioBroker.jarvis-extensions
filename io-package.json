@@ -2,6 +2,11 @@
 	"common": {
 		"name": "jarvis-extensions",
 		"version": "0.0.1",
+		"adminUI": {
+			"config": "json",
+			"tab": "materialize",
+			"custom": "json"
+		},
 		"news": {
 			"0.0.1": {
 				"en": "initial release",
@@ -61,11 +66,6 @@
 		"compact": true,
 		"connectionType": "local",
 		"dataSource": "poll",
-		"adminUI": {
-			"config": "json",
-			"tab": "materialize",
-			"custom": "json"
-		},
 		"adminTab": {
 			"singleton": true,
 			"name": {
