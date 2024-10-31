@@ -44,6 +44,9 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies, including rimraf
+        run: npm install rimraf --no-save
       - uses: ioBroker/testing-action-adapter@v1
         with:
           node-version: ${{ matrix.node-version }}
@@ -69,6 +72,9 @@ jobs:
       contents: write
 
     steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies, including rimraf
+        run: npm install rimraf --no-save
       - uses: ioBroker/testing-action-deploy@v1
         with:
           node-version: '18.x'
