@@ -27,7 +27,7 @@ Extensions for jarvis-Adapter
 -   (mcuiobroker) initial release
 
 ! Zurzeit nur einige Tests bezgl. Adapter !
-! NICHT NRUTZBAR !
+! NICHT NUTZBAR !
 
 Hier sind einige Erweiterungen in einem zusätzlichem Adapter zusammengeführt.
 
