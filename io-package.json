@@ -67,23 +67,6 @@
 		"compact": true,
 		"connectionType": "local",
 		"dataSource": "poll",
-		"adminTab": {
-			"ignoreConfigUpdate": true,
-			"singleton": false,
-			"name": {
-				"en": "Jarvis-Extensions",
-				"de": "Jarvis-Erweiterungen",
-				"ru": "Jarvis-Extensions",
-				"pt": "Jarvis-Extensions",
-				"nl": "Jarvis-Extensions",
-				"fr": "Jarvis-Extensions",
-				"it": "Jarvis-Extensions",
-				"es": "Jarvis-Extensions",
-				"pl": "Jarvis-Extensions",
-				"zh-cn": "Jarvis-Extensions"
-			},
-			"fa-icon": "</i><img style='width:24px;margin-bottom:-6px;' src='/adapter/backitup/backitup.svg'><i>"
-		},
 		"supportCustoms": true,
 		"eraseOnUpload": true,
 		"dependencies": [
