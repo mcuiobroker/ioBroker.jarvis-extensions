@@ -93,5 +93,8 @@
   "bugs": {
     "url": "https://github.com/mcuiobroker/ioBroker.jarvis-extensions/issues"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "resolutions": {
+    "protobufjs": "^7.2.4"
+  }
 }
