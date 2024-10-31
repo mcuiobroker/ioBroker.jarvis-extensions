@@ -44,7 +44,7 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install dependencies, including rimraf
         run: npm install rimraf --no-save
       - uses: ioBroker/testing-action-adapter@v1
@@ -72,7 +72,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install dependencies, including rimraf
         run: npm install rimraf --no-save
       - uses: ioBroker/testing-action-deploy@v1
