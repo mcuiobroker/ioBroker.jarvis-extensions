@@ -6,7 +6,7 @@
 	"description": "Extensions for jarvis-Adapter",
 	"keywords": ["ioBroker", "ioBroker-adapter", "jarvis", "visualization"],
 	"contributors": "",
-	"features": ["adapter", "vis"],
+	"features": ["adapter"],
 	"adminFeatures": ["tab", "custom"],
 	"type": "visualization",
 	"startMode": "daemon",
@@ -28,7 +28,7 @@
 		}
 	],
 	"language": "JavaScript",
-	"nodeVersion": "16",
+	"nodeVersion": "18",
 	"adminUI": {
 		"config": "json",
 		"tab": "materialize",
