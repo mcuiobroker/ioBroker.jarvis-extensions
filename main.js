@@ -101,6 +101,7 @@ class JarvisExtensions extends utils.Adapter {
 
 			callback();
 		} catch (e) {
+			console.log(e);
 			callback();
 		}
 	}

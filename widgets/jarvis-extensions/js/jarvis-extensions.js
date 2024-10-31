@@ -36,7 +36,7 @@ vis.binds['jarvis-extensions'] = {
 		}
 	},
 	createWidget: function (widgetID, view, data, style) {
-		var $div = $('#' + widgetID);
+		const $div = $('#' + widgetID);
 		// if nothing found => wait
 		if (!$div.length) {
 			return setTimeout(function () {
@@ -44,7 +44,7 @@ vis.binds['jarvis-extensions'] = {
 			}, 100);
 		}
 
-		var text = '';
+		let text = '';
 		text += 'OID: ' + data.oid + '</div><br>';
 		text += 'OID value: <span class="jarvis-extensions-value">' + vis.states[data.oid + '.val'] + '</span><br>';
 		text += 'Color: <span style="color: ' + data.myColor + '">' + data.myColor + '</span><br>';
@@ -56,6 +56,7 @@ vis.binds['jarvis-extensions'] = {
 
 		// subscribe on updates of value
 		function onChange(e, newVal, oldVal) {
+			console.log(oldVal);
 			$div.find('.template-value').html(newVal);
 		}
 		if (data.oid) {
