@@ -82,8 +82,7 @@
 				"pl": "Jarvis-Extensions",
 				"zh-cn": "Jarvis-Extensions"
 			},
-			"link": "admin/testTab.html",
-			"fa-icon": "fas fa-info"
+			"fa-icon": "</i><img style='width:24px;margin-bottom:-6px;' src='/adapter/backitup/backitup.svg'><i>"
 		},
 		"supportCustoms": true,
 		"eraseOnUpload": true,
