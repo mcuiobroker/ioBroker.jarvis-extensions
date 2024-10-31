@@ -83,7 +83,7 @@
 				"zh-cn": "Jarvis-Extensions"
 			},
 			"link": "admin/testTab.html",
-			"fa-icon": "info"
+			"fa-icon": "fas fa-info"
 		},
 		"supportCustoms": true,
 		"eraseOnUpload": true,
