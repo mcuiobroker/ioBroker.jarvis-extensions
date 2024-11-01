@@ -11,6 +11,17 @@
 			"label": "options",
 
 			"items": {
+				"timePicker": {
+					"type": "timePicker",
+					"format": "HH:mm:ss",
+					"views": ["hours", "minutes"],
+					"returnFormat": "HH:mm:ss",
+					"timeSteps": {
+						"minutes": 1,
+						"hours": 1
+					},
+					"tooltip": "test"
+				},
 				"lastDPChanges": {
 					"type": "checkbox",
 					"label": "Letzte Jarvis-DP Änderungen",
