@@ -31,7 +31,7 @@
 	"nodeVersion": "18",
 	"adminUI": {
 		"config": "json",
-		"tab": "materialize",
+		"tab": "json",
 		"custom": "json"
 	},
 	"tabReact": "yes",
