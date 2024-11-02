@@ -49,9 +49,8 @@
 		"authors": ["mcuiobroker <mcuiobroker@gmail.com>"],
 		"keywords": ["jarvis-tools", "jarvis", "visualization"],
 		"licenseInformation": {
-			"type": "limited",
-			"license": "MIT",
-			"link": ""
+			"type": "free",
+			"license": "MIT"
 		},
 		"platform": "Javascript/Node.js",
 		"main": "main.js",
