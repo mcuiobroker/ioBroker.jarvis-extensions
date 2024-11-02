@@ -11,17 +11,6 @@
 			"label": "options",
 
 			"items": {
-				"timePicker": {
-					"type": "timePicker",
-					"format": "HH:mm:ss",
-					"views": ["hours", "minutes"],
-					"returnFormat": "HH:mm:ss",
-					"timeSteps": {
-						"minutes": 1,
-						"hours": 1
-					},
-					"tooltip": "test"
-				},
 				"lastDPChanges": {
 					"type": "checkbox",
 					"label": "Letzte Jarvis-DP Änderungen",
@@ -32,6 +21,7 @@
 					"md": 6,
 					"lg": 4,
 					"xl": 4,
+					"tooltip": "<div style='color:red;'>Hier werden die letzten Änderungen angezeigt</div>",
 					"newLine": true
 				},
 				"copyInstance": {
@@ -43,6 +33,17 @@
 					"lg": 4,
 					"xl": 4,
 					"default": false
+				},
+				"timePicker": {
+					"type": "timePicker",
+					"format": "HH:mm:ss",
+					"views": ["hours", "minutes"],
+					"returnFormat": "HH:mm:ss",
+					"timeSteps": {
+						"minutes": 1,
+						"hours": 1
+					},
+					"tooltip": "test"
 				},
 				"objektId": {
 					"type": "objectId",
