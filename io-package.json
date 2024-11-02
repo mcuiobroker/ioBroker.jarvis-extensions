@@ -4,8 +4,25 @@
 		"version": "0.0.1",
 		"adminUI": {
 			"config": "json",
-			"tab": "materialize",
+			"tab": "html",
 			"custom": "json"
+		},
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "Your-Adapter-Name",
+				"de": "Ihr-Adapter-Name",
+				"ru": "Ваш-адаптер-имя",
+				"pt": "Seu-Adapter-Name",
+				"nl": "Uw-Adapter-Naam",
+				"fr": "Votre-Nom-Adaptateur",
+				"it": "Nome-Adattatore-Tuo",
+				"es": "Su-Adaptador-Nombre",
+				"pl": "Twój-Adapter-Nazwa",
+				"zh-cn": "适配器-您的名字"
+			},
+			"link": "admin/tab.html",
+			"fa-icon": "info"
 		},
 		"news": {
 			"0.0.1": {
