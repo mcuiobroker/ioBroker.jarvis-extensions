@@ -10,18 +10,10 @@
 		"adminTab": {
 			"singleton": true,
 			"name": {
-				"en": "Your-Adapter-Name",
-				"de": "Ihr-Adapter-Name",
-				"ru": "Ваш-адаптер-имя",
-				"pt": "Seu-Adapter-Name",
-				"nl": "Uw-Adapter-Naam",
-				"fr": "Votre-Nom-Adaptateur",
-				"it": "Nome-Adattatore-Tuo",
-				"es": "Su-Adaptador-Nombre",
-				"pl": "Twój-Adapter-Nazwa",
-				"zh-cn": "适配器-您的名字"
+				"en": "Jarvis-Extensions",
+				"de": "Jarvis-Erweiterungen"
 			},
-			"link": "admin/tab.html",
+			"link": "",
 			"fa-icon": "info"
 		},
 		"news": {

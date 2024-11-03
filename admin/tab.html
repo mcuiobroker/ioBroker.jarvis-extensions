@@ -3,9 +3,40 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Overview</title>
+		<script>
+			let color = '#ffffff'; // Standardfarbe für Hellmodus
+
+			function updateColor() {
+				console.log(localStorage.getItem('App.theme'));
+				const darkMode = localStorage.getItem('App.theme') === 'dark';
+				color = darkMode ? '#ffffff' : '#333333'; // Textfarbe
+				backgroundColor = darkMode ? '#333333' : '#ffffff'; // Hintergrundfarbe
+				console.log('Color: ' + color);
+				// Wendet die Farben auf den body an
+				document.body.style.color = color;
+				document.body.style.backgroundColor = backgroundColor;
+
+				// Wendet die Farbe auf das gewünschte Element an
+				document.getElementById('header').style.color = color;
+			}
+
+			// Initiale Farbsetzung beim Laden
+			setTimeout(function () {
+				document.addEventListener('DOMContentLoaded', updateColor);
+			}, 2000);
+			// Ändert die Farbe, wenn sich localStorage ändert
+			window.addEventListener('storage', (event) => {
+				console.log(event);
+				console.log(event.key);
+				if (event.key == 'App.theme') {
+					console.log('Neues FarbThema');
+					updateColor();
+				}
+			});
+		</script>
 	</head>
 	<body>
-		<h1>Overview Tab</h1>
-		<p>This is the content of the Overview tab.</p>
+		<h1 id="header" style="color: white">Overview Tab</h1>
+		<p style="color: white">This is the content of the Overview tab.</p>
 	</body>
 </html>
